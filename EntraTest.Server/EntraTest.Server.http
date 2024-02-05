@@ -1,0 +1,6 @@
+@EntraTest.Server_HostAddress = http://localhost:5149
+
+GET {{EntraTest.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
